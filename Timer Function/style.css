@@ -1,0 +1,99 @@
+body{
+    background: black;
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+}
+body > #content{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+body > #content > #main{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 54em;
+    width: fit-content;
+    height: fit-content;
+    border-bottom: 1px solid #ffffff6b;
+    padding-bottom: 2.1em;
+}
+body > #content >#main >#header{
+    color: white;
+    font-size: 1.5em;
+}
+body > #content >#main >#timer{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+body > #content >#main >#timer > #addTimer_button,
+body > #content >#main >#timer > #exportJson_button{
+    background-color: #081059;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0.17em 0.85em;
+    color: wheat;
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition:0.15s ease-in-out;
+}
+body > #content > #main >#timer > #addTimer_button:hover,
+body > #content > #main >#timer > #exportJson_button:hover{
+    scale:1.075;
+}
+#container{
+    display: flex;
+    gap: 3em;
+    flex-wrap: wrap;
+}
+.parentContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: fit-content;
+    border: 0.5px solid grey;
+    border-radius: 0.7em;
+    padding: 0.9em;
+    background: #8080803b;
+}
+.header{
+    font-size: 1.3em;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+.timer{
+    display: flex;
+    background: #7e7e7e7d;
+    padding: 0.5em 0.85em;
+    border-radius: 0.5em;
+    color: white;
+    font-size: 1.4em;
+}
+.optionButtons{
+    display: flex;
+    gap: 0.5em;
+}
+.deleteButton{
+    background: tomato;
+    padding: 0.2em 0.55em;
+    font-weight: bold;
+    border-radius: 0.3em;
+    cursor: pointer;    
+}
+.editButton{
+    background: grey;
+    padding: 0.2em 0.55em;
+    font-weight: bold;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+.pauseButton{
+    background: #efcd12;
+    padding: 0.2em 0.55em;
+    font-weight: bold;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
