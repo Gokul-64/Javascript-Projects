@@ -54,4 +54,4 @@ To run this project locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Gokul-64/Javascript-Projects/Timer%20Function/
+   git clone https://github.com/Gokul-64/Javascript-Projects/tree/main/Timer%20Function
